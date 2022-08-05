@@ -59,5 +59,7 @@ CustomizableUI
 http://web.archive.org/web/20191002123132/https://developer.mozilla.org/en-US/docs/Mozilla/JavaScript_code_modules/CustomizableUI.jsm
 http://web.archive.org/web/20191002123132/https://developer.mozilla.org/en-US/docs/Mozilla/JavaScript_code_modules/CustomizableUI.jsm/API-provided_widgets
 
+CustomizableUI is not available for Thunderbird.
+
 About Agent Sheet
 http://web.archive.org/web/20190930102512/https://developer.mozilla.org/en-US/docs/Archive/Add-ons/Using_the_Stylesheet_Service
