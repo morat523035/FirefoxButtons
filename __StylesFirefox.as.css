@@ -1,0 +1,17 @@
+/* AGENT_SHEET */
+
+scrollbar { width: 35px !important; }
+
+/* browser.uiCustomization.state preference fails to set the correct order on startup */
+
+@-moz-document url-prefix("chrome://browser/content/browser.xhtml") {
+
+  #menubar-items                                   { -moz-box-ordinal-group: 1 !important; }
+  #__unique_identifier_restart_button              { -moz-box-ordinal-group: 2 !important; }
+  #__unique_identifier_test_code_button            { -moz-box-ordinal-group: 3 !important; }
+  #__unique_identifier_attributes_inspector_button { -moz-box-ordinal-group: 4 !important; }
+  #__unique_identifier_get_command_button          { -moz-box-ordinal-group: 5 !important; }
+  #__unique_identifier_preference_tracker_button   { -moz-box-ordinal-group: 6 !important; }
+  #__unique_identifier_zoom_scroll_button          { -moz-box-ordinal-group: 7 !important; }
+
+}
