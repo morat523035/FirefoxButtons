@@ -10,7 +10,7 @@ The autoconfig.js file should be in the same folder as the channel-prefs.js file
 
 * <install directory>\mozilla.cfg
 
-The mozilla.cfg file should be in the same folder as the thunderbird.exe executable.
+The mozilla.cfg file should be in the same folder as the firefox.exe executable.
 
 * <profile directory>\chrome\_AttributesInspectorFirefoxButton_Movable.uc.js
 * <profile directory>\chrome\_GetCommandFirefoxButton_Movable.uc.js
