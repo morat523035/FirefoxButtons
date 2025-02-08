@@ -1,0 +1,19 @@
+/* AGENT_SHEET */
+
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+@namespace html url("http://www.w3.org/1999/xhtml");
+
+/* Firefox fails to set correct order on startup, see browser.uiCustomization.state pref */
+
+/* use -moz-box-ordinal-group property in Firefox 112 */
+/* use order                  property in Firefox 113 */
+
+@-moz-document url-prefix("chrome://browser/content/browser.xhtml") {
+  toolbaritem#menubar-items                                       { order: 1 !important; }
+  toolbarbutton#__unique_identifier_1_restart_button              { order: 2 !important; }
+  toolbarbutton#__unique_identifier_2_test_code_button            { order: 3 !important; }
+  toolbarbutton#__unique_identifier_3_attributes_inspector_button { order: 4 !important; }
+  toolbarbutton#__unique_identifier_4_get_command_button          { order: 5 !important; }
+  toolbarbutton#__unique_identifier_5_preference_tracker_button   { order: 6 !important; }
+  toolbarbutton#__unique_identifier_6_zoom_scroll_button          { order: 7 !important; }
+}
